@@ -1,5 +1,5 @@
 /*
- * card-masktech.c: Support for Masktech smart cards using the MTCOS operating system.
+ * card-masktech.c: Support for MaskTech smart cards using the MTCOS operating system.
  *
  * Copyright (C) 2011-2015 MaskTech GmbH Fischerstrasse 19, 87435 Kempten, Germany
  * Copyright (C) 2011 Andrey Uvarov (X-Infotech) <andrejs.uvarovs@x-infotech.com>
@@ -34,7 +34,7 @@
 static struct sc_atr_table masktech_atrs[] = {
 	{"3B:89:80:01:4D:54:43:4F:53:70:02:02:05:3B", NULL, NULL,
 	 SC_CARD_TYPE_MASKTECH_GENERIC, 0, NULL},
-	{"3B:88:80:01:00:00:00:00:77:81:81:00:7E", NULL, NULL,
+	{"3B:88:80:01:00:00:00:00:77:81:80:00:6E", "FF:FF:FF:FF:FF:FF:FF:FF:FF:FF:EE:FF:EE", NULL,
 	 SC_CARD_TYPE_MASKTECH_GENERIC, 0, NULL},
 	{"3B:9D:13:81:31:60:37:80:31:C0:69:4D:54:43:4F:53:73:02:02:05:41", NULL, NULL,
 	 SC_CARD_TYPE_MASKTECH_GENERIC, 0, NULL},
